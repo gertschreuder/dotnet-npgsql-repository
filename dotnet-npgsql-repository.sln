@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{CD6FCAF2-25A0-469C-A7A0-343CA57CD831}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{A9594F6C-0DDF-4D26-9191-774EF9E77F59}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		docker-compose.yml = docker-compose.yml
+		dockerfile = dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0AE3E03B-F459-44BB-A46D-9F2844B5D033}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repo.App", "src\Repo.App\Repo.App.csproj", "{BBB01988-D8A8-46F1-8053-8748A9299137}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repo.App.Test", "tests\Repo.App.Test\Repo.App.Test.csproj", "{2E0EB658-4CDB-4A76-9709-3486A895D117}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBB01988-D8A8-46F1-8053-8748A9299137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB01988-D8A8-46F1-8053-8748A9299137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB01988-D8A8-46F1-8053-8748A9299137}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BBB01988-D8A8-46F1-8053-8748A9299137}.Debug|x64.Build.0 = Debug|Any CPU
+		{BBB01988-D8A8-46F1-8053-8748A9299137}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BBB01988-D8A8-46F1-8053-8748A9299137}.Debug|x86.Build.0 = Debug|Any CPU
+		{BBB01988-D8A8-46F1-8053-8748A9299137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB01988-D8A8-46F1-8053-8748A9299137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB01988-D8A8-46F1-8053-8748A9299137}.Release|x64.ActiveCfg = Release|Any CPU
+		{BBB01988-D8A8-46F1-8053-8748A9299137}.Release|x64.Build.0 = Release|Any CPU
+		{BBB01988-D8A8-46F1-8053-8748A9299137}.Release|x86.ActiveCfg = Release|Any CPU
+		{BBB01988-D8A8-46F1-8053-8748A9299137}.Release|x86.Build.0 = Release|Any CPU
+		{2E0EB658-4CDB-4A76-9709-3486A895D117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0EB658-4CDB-4A76-9709-3486A895D117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0EB658-4CDB-4A76-9709-3486A895D117}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2E0EB658-4CDB-4A76-9709-3486A895D117}.Debug|x64.Build.0 = Debug|Any CPU
+		{2E0EB658-4CDB-4A76-9709-3486A895D117}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E0EB658-4CDB-4A76-9709-3486A895D117}.Debug|x86.Build.0 = Debug|Any CPU
+		{2E0EB658-4CDB-4A76-9709-3486A895D117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0EB658-4CDB-4A76-9709-3486A895D117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E0EB658-4CDB-4A76-9709-3486A895D117}.Release|x64.ActiveCfg = Release|Any CPU
+		{2E0EB658-4CDB-4A76-9709-3486A895D117}.Release|x64.Build.0 = Release|Any CPU
+		{2E0EB658-4CDB-4A76-9709-3486A895D117}.Release|x86.ActiveCfg = Release|Any CPU
+		{2E0EB658-4CDB-4A76-9709-3486A895D117}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBB01988-D8A8-46F1-8053-8748A9299137} = {CD6FCAF2-25A0-469C-A7A0-343CA57CD831}
+		{2E0EB658-4CDB-4A76-9709-3486A895D117} = {0AE3E03B-F459-44BB-A46D-9F2844B5D033}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB998695-E831-4E70-83E1-E76131DD255F}
+	EndGlobalSection
+EndGlobal

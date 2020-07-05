@@ -1,0 +1,8 @@
+:root {
+    --primaryColor: #fff;
+    --secondaryColor: #D0021B;
+    --bgMenuActive: #eb3158;
+    --bgButton: #D0021B;
+    --logoImageUrl: url('https://www.absa.co.za/content/dam/south-africa/absa/Iconography/absa-logo-red.png');
+    --bgAside: var(--primaryColor);
+}
